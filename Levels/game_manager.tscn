@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp05wro8w5joa"]
+
+[ext_resource type="Script" path="res://Levels/game_manager.gd" id="1_wculf"]
+[ext_resource type="PackedScene" uid="uid://j3lq8vm7hwcw" path="res://UI/score_coin_gui.tscn" id="2_cs58r"]
+
+[node name="GameManager" type="Node"]
+script = ExtResource("1_wculf")
+
+[node name="ScoreCoinGUI" parent="." instance=ExtResource("2_cs58r")]
